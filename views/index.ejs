@@ -1,0 +1,15 @@
+<% include partials/header %>
+<h2>Hello welcome to your Node, Express Playground</h2>
+
+<picture>
+  <source media="(max-width: 500px)" srcset="images/background-500.webp" type="image/webp">
+  <source media="(min-width: 501px) and (max-width: 1200px)" srcset="images/background-1000.webp" type="image/webp">
+  <source media="(min-width: 1201px)" srcset="images/background-1500.webp" type="image/webp">
+
+  <source media="(max-width: 500px)" srcset="images/background-500.jpg" type="image/jpeg">
+  <source media="(min-width: 501px) and (max-width: 1200px)" srcset="images/background-1000.jpg" type="image/jpeg">
+  <source media="(min-width: 1201px)" srcset="images/background-1500.jpg" type="image/jpeg">
+
+  <img src="images/background-1000.jpg" alt="Some alt tag" class="background">
+</picture>
+<% include partials/footer %>
